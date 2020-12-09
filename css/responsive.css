@@ -1,0 +1,53 @@
+
+body{
+	background-image: url(img/fondo1.jpg);
+}
+.contenedor{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.contenido{
+	width: 70%;
+	box-sizing: border-box;
+
+}
+.canciones{
+	width: 30%;
+	box-sizing: border-box;
+}
+@media screen and (max-width: 800px){
+	.contenedor{
+		width:100%;
+	}
+	.canciones{
+		width: 100%;
+	}
+	#header{
+		width: 100%;
+	}
+	.slider{
+		width: 100%;
+	}
+	.carousel{
+		width: 100%;
+	}
+	
+}
+@media screen and (max-width: 300px){
+	.contenedor{
+		width: 100%;
+	}
+	#header{
+		width: 100%;
+	}
+	.slider{
+		width: 100%;
+	}
+	.carousel{
+		width: 100%;
+	}
+
+}
